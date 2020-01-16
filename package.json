@@ -1,0 +1,26 @@
+{
+    "name": "strtrim",
+    "description": "Standalone version of lodash string trim functions",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "Matthew Gamble <git@matthewgamble.net>",
+    "devDependencies": {
+        "@types/chai": "^4.2.7",
+        "@types/mocha": "^5.2.7",
+        "chai": "^4.2.0",
+        "mocha": "^7.0.0",
+        "ts-mocha": "^6.0.0",
+        "ts-node": "^8.6.2",
+        "typescript": "^3.7.4"
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "ts-mocha test.ts"
+    },
+    "homepage": "https://github.com/djmattyg007/js-strtrim",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/djmattyg007/js-strtrim.git"
+    },
+    "keyword": ["string", "trim", "trimStart", "trimEnd", "trimLeft", "trimRight"]
+}
