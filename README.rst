@@ -8,7 +8,9 @@ Credit goes to them for the implementation.
 Usage
 =====
 
-Usage is simple::
+Usage is simple:
+
+.. code:: typescript
 
     const { trim, trimStart, trimEnd } = require("strtrim");
 
