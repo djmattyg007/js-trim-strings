@@ -1,7 +1,7 @@
 {
     "name": "trim-strings",
     "description": "Standalone version of lodash string trim functions",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "author": "Matthew Gamble <git@matthewgamble.net>",
     "devDependencies": {
@@ -24,5 +24,5 @@
         "type": "git",
         "url": "https://github.com/djmattyg007/js-trim-strings.git"
     },
-    "keyword": ["string", "trim", "trimStart", "trimEnd", "trimLeft", "trimRight"]
+    "keywords": ["string", "trim", "trimStart", "trimEnd", "trimLeft", "trimRight"]
 }
