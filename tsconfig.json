@@ -2,12 +2,14 @@
     "compilerOptions": {
         "target": "esnext",
         "module": "commonjs",
+        "esModuleInterop": true,
         "strictNullChecks": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "noUnusedLocals": true,
         "moduleResolution": "node",
         "sourceMap": true,
+        "declaration": true,
         "lib": ["esnext"],
         "outDir": "dist"
     },

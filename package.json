@@ -17,6 +17,8 @@
         "build": "tsc",
         "test": "ts-mocha test.ts"
     },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "homepage": "https://github.com/djmattyg007/js-strtrim",
     "repository": {
         "type": "git",
