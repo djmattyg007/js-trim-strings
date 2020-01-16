@@ -19,8 +19,8 @@ Usage is simple:
     console.log(trimEnd(" abc ")); // outputs " abc"
 
     console.log(trim("-a b c-", "-")); // outputs "a b c"
-    console.log(trimStart("-_-abc_-_", "-_")) // outputs "abc_-_"
-    console.log(trimEnd("--abc__", "--")) // outputs "--abc__"
+    console.log(trimStart("-_-abc_-_", "-_")); // outputs "abc_-_"
+    console.log(trimEnd("--abc__", "--")); // outputs "--abc__"
 
 Tests
 =====
