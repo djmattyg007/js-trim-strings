@@ -1,5 +1,5 @@
 {
-    "name": "trim-string",
+    "name": "trim-strings",
     "description": "Standalone version of lodash string trim functions",
     "version": "1.0.0",
     "license": "MIT",
