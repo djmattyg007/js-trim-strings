@@ -10,7 +10,7 @@ Usage
 Usage is simple:
 
 ```typescript
-const { trim, trimStart, trimEnd } = require("strtrim");
+const { trim, trimStart, trimEnd } = require("trim-strings");
 
 console.log(trim(" abc ")); // outputs "abc"
 console.log(trimStart(" abc ")); // outputs "abc "
