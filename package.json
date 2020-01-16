@@ -1,7 +1,7 @@
 {
     "name": "trim-strings",
     "description": "Standalone version of lodash string trim functions",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "license": "MIT",
     "author": "Matthew Gamble <git@matthewgamble.net>",
     "devDependencies": {
@@ -19,6 +19,7 @@
     },
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "files": ["src/**/*.ts", "dist/**/*.js", "dist/**/*.d.ts", "dist/**/*.js.map"],
     "homepage": "https://github.com/djmattyg007/js-trim-strings",
     "repository": {
         "type": "git",
