@@ -1,5 +1,5 @@
 {
-    "name": "strtrim",
+    "name": "string-trim",
     "description": "Standalone version of lodash string trim functions",
     "version": "1.0.0",
     "license": "MIT",
@@ -19,10 +19,10 @@
     },
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "homepage": "https://github.com/djmattyg007/js-strtrim",
+    "homepage": "https://github.com/djmattyg007/js-string-trim",
     "repository": {
         "type": "git",
-        "url": "https://github.com/djmattyg007/js-strtrim.git"
+        "url": "https://github.com/djmattyg007/js-string-trim.git"
     },
     "keyword": ["string", "trim", "trimStart", "trimEnd", "trimLeft", "trimRight"]
 }
