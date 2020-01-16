@@ -19,10 +19,10 @@
     },
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "homepage": "https://github.com/djmattyg007/js-trim-string",
+    "homepage": "https://github.com/djmattyg007/js-trim-strings",
     "repository": {
         "type": "git",
-        "url": "https://github.com/djmattyg007/js-trim-string.git"
+        "url": "https://github.com/djmattyg007/js-trim-strings.git"
     },
     "keyword": ["string", "trim", "trimStart", "trimEnd", "trimLeft", "trimRight"]
 }
