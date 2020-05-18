@@ -1,7 +1,7 @@
 {
     "name": "trim-strings",
     "description": "Standalone version of lodash string trim functions",
-    "version": "1.0.5",
+    "version": "2.0.0",
     "license": "MIT",
     "author": "Matthew Gamble <git@matthewgamble.net>",
     "devDependencies": {
