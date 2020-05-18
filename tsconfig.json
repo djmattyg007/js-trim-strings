@@ -2,15 +2,15 @@
     "compilerOptions": {
         "target": "esnext",
         "module": "commonjs",
-        "esModuleInterop": true,
         "strict": true,
         "strictNullChecks": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "noUnusedLocals": true,
+        "forceConsistentCasingInFileNames": true,
         "moduleResolution": "node",
+        "esModuleInterop": true,
         "sourceMap": true,
-        "declaration": true,
         "lib": ["esnext"],
         "outDir": "dist"
     },
