@@ -9,7 +9,7 @@ import trimEnd from "./src/trimEnd";
  * Used to check for problems removing whitespace. For a whitespace reference,
  * see V8's unit test: https://code.google.com/p/v8/source/browse/branches/bleeding_edge/test/mjsunit/whitespaces.js
  */
-var whitespaceArr = [
+const whitespaceArr = [
   // Basic whitespace characters.
   ' ', '\t', '\x0b', '\f', '\xa0', '\ufeff',
   // Line terminators.
