@@ -13,7 +13,7 @@
         "typescript": "^4.0.3"
     },
     "scripts": {
-        "build": "tsc --module esnext",
+        "build": "tsc --module esnext --noEmitOnError",
         "test": "mocha --require ts-node/register test.ts"
     },
     "main": "dist/index.js",
