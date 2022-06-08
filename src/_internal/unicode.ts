@@ -29,7 +29,7 @@ const rsSymbol = `(?:${[rsNonAstralCombo, rsCombo, rsRegional, rsSurrPair, rsAst
 /** Used to match string symbols: https://mathiasbynens.be/notes/javascript-unicode */
 const reUnicode = RegExp(`${rsFitz}(?=${rsFitz})|${rsSymbol + rsSeq}`, 'g');
 
-/** Used to detect strings with zero-width joiners or code points from the astral planes: (http://eev.ee/blog/2015/09/12/dark-corners-of-unicode/ */
+/** Used to detect strings with zero-width joiners or code points from the astral planes: (https://eev.ee/blog/2015/09/12/dark-corners-of-unicode/ */
 const reHasUnicode = RegExp(`[${rsZWJ + rsAstralRange + rsComboRange + rsVarRange}]`);
 
 /**
